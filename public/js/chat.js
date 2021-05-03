@@ -80,7 +80,7 @@ document
 
         socket.emit("client_send_to_admin", params);
 
-        const template_client = document.getElementById("message_user_template").innerHTML;
+        const template_client = document.getElementById("message-user-template").innerHTML;
 
         const rendered = Mustache.render(template_client, {
             message: text.value,
